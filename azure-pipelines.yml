@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: Batch_devops
 
 variables:
   buildConfiguration: 'Release'
